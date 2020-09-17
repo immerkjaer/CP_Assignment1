@@ -108,3 +108,7 @@ run-all:
 
 delete-all:
 	rm -rf dumps
+
+copy-results:
+	mkdir -p results
+	cp -r dumps/* results/

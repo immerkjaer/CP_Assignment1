@@ -1,0 +1,42 @@
+
+File=Data/shakespeare.txt, pattern='Something is rotten in the state of Denmark.', ntasks=8, nthreads=1, warmups=5, runs=10, thread pool=2
+
+0.210926
+0.211790
+0.212573
+0.210372
+0.208435
+0.211481
+0.212433
+0.212879
+0.210751
+0.208944
+Single task (avg.): 0.211058
+
+
+
+0.028178
+0.027905
+0.027824
+0.028081
+0.028074
+0.028032
+0.031131
+0.027992
+0.028045
+0.029114
+Using  8 tasks (avg.): 0.028437
+
+
+
+Average speedup: 7.42
+
+
+
+1 occurrences found in 
+ 1014093
+
+
+
+1 occurrences found in 
+ 1014093
